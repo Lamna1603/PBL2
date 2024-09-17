@@ -1,1 +1,1 @@
-d
+//thhuoocj tính:id chuẩn đoán,nội dung

@@ -1,5 +1,5 @@
 // Kế thừa từ lớp User, thêm thuộc tính địa chỉ và tuổi
-// Cung cấp các phương thức get/set thông tin, đặt lịch khám, và xem lịch sử khám bệnh
+// Cung cấp các phương thức get/set thông tin, đặt/hủy lịch khám, và xem lịch sử khám bệnh
 
 #ifndef PATIENT_H
 #define PATIENT_H
@@ -28,6 +28,9 @@ public:
 
     // Schedule appointment
     void scheduleAppointment(const string& date);
+
+    // Cancel appointment
+    void cancelAppointment(const string& date);
 
     // View medical history
     void viewMedicalHistory() const;
